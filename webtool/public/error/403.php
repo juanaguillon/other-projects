@@ -1,0 +1,1 @@
+<h2>No se puede acceder a esta página</h2>

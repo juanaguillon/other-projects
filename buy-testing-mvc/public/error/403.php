@@ -1,0 +1,1 @@
+<h1>Error de archivos. No se puede entrar a este archivo</h1>

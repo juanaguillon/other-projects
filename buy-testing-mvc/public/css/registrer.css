@@ -1,0 +1,14 @@
+.dblock{
+	border: none;
+}
+.modal_{
+	height: 200px;
+	width: 100%;
+	top: 4em;
+	position: absolute;
+	background-color: white;
+	text-align: center;
+	box-shadow: 2px 0 1px #717171;
+	opacity: 0.8;
+	padding-top:5em; 
+}

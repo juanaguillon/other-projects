@@ -1,0 +1,14 @@
+RewriteEngine On
+Options All -Indexes
+RewriteBase /webtool/
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+
+#RewriteCond %{HTTP_HOST} ^webtool.com [NC]
+#RewriteRule (.*) http://www.webtool.com/$1 [L,R=301]
+
+ErrorDocument 403 /webtool/public/error/403.php
+ErrorDocument 404 /webtool/public/error/404.php

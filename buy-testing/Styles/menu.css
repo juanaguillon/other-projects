@@ -1,0 +1,208 @@
+/* ESTILOS PARA EL MENÚ PRINCIPAL */
+
+#key_menu h1{
+	float: left;
+	margin-right: 2em;
+	font-size: 20px;
+	margin-top: 8px;
+	text-shadow: 2px 2px 1px black;
+}
+#key_menu label{
+	float: right;
+	cursor: pointer;
+	margin-top: 7px; 
+}
+#key_menu>input{
+	display: none;
+}
+#key_menu label .fa{
+	  font-size: 20px;
+	  margin-left: 11px;
+	  margin-top: 3px;  
+	}
+
+	/* Opciones para el buscador dentro de el menu principal */
+	#form_search {  
+		float: left;
+		position: relative;
+		transition: all 0.3s;  
+		transform: translateX(-1000%);
+		width:10%;
+	}#form_search>input{   
+		width: 80%;
+		height: 30px;
+		margin-top: 4px;
+		display: inline-block;
+	}
+	 #form_search button input{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 0;
+		}
+	#form_search button{
+		display: inline-block;
+		position: absolute;
+		top:4px;
+		right: 38px;
+		width: 14%;
+		height: 88%;		
+		border: none;
+		border-radius: 2px;		
+	} 
+		/* Resultados y division de la busqueda en el Form Principal para busqueda */
+		#result_search{
+			position: absolute;
+			top: 100%;
+			background: white;
+			border-radius: 2px;
+			width: 94%;
+			height: auto;
+			box-shadow: 0px 2px 6px gray;
+			overflow:hidden;
+		}
+		#result_search p{
+			color: black;
+			font-size: 14px;
+			text-align: left;			
+			padding: 5px;
+			cursor: pointer;
+			padding: 5px 15px;
+			
+		}
+		#result_search p a{
+			color :black;
+			text-decoration: none;  
+			display: block;
+			width: 100%;
+			font-weight: 700;
+		}
+		#result_search p:hover{
+			background: #D8D8D8;;
+		}
+
+	/* Opciones para el Menu desplegable para ver opciones a elegir (lista UL dentro del MENU HEADER) */
+	#ul_primary_key {  
+		background: #FFFFFF;  
+		position: absolute;
+		left: 0;
+		height: auto;
+		transform: translateX(-100%);
+		width: 100%; 
+		top: 40px;
+		box-shadow: 0px 3px 4px #A5A5A5;
+	}
+	#checkbox_nav:checked ~ #ul_primary_key{
+		transform: translateX(0);
+	}
+	#ul_primary_key a{
+		display: block;
+		padding: 10px;
+		color: black;
+		text-decoration: none;
+		font-size: 15px;  
+	}
+
+
+/* OPCIONES PARA EL BUSCADOR EN DISPOTIVOS DE MENOR TAMAÑO */
+#appear_search:checked ~ #nav_primary_title{  
+	display: none;
+}
+#appear_search:checked ~ #form_search{  
+	transform: translateX(0);
+	width: 70%;
+}
+/* RESPONSIVE TOTAL */
+@media (max-width: 420px){
+	#key_menu label .fa{
+	  font-size: 14px; 
+	}
+}
+@media (min-width: 768px){
+
+	#ul_primary_key{
+		position:static;
+		width: auto;
+		height: auto;
+		float: right;
+		background: initial;
+		transform: translateX(0);
+		box-shadow: none;
+	}
+	/*CSS Para el menu de OPCIONES*/
+	#ul_primary_key>ul>li{
+		display: inline-block;
+		height: 40px;
+	}
+	#ul_primary_key>ul>li:hover>ul{
+		position: absolute;
+		display: block;
+		width: 100%;
+		right: 0px;
+	}
+	#ul_primary_key li ul li{
+		display: block;
+	}
+	#ul_primary_key li>ul{
+		background: white;	
+		display: none;
+		box-shadow: 0 1px 4px gray;
+	}
+	#ul_primary_key li ul a{
+		color: black;
+		font-size: 14px;
+		text-shadow: none;
+		padding: 7px 17px;
+		height: auto;
+		font-weight: normal;
+	}
+	#ul_primary_key li ul a:hover{
+		background: #B20000;
+		color: white;	
+		font-weight: bold;	
+		text-shadow: 1px 1px 0 black;
+	}
+	/*Final de CSS PARA EL MENU OPCIONES*/
+	#key_menu label{
+		display: none;
+	}
+	#ul_primary_key a{
+		color: white;
+		font-weight: bold; 
+		height: 40px;
+		text-shadow: 1px 1px 1px black;
+		font-size: 13px;
+		padding: 10px 5px;
+
+	}
+	#ul_primary_key li > a:hover{
+  color:#dcdcdc;
+  transition:all 0.2s;  
+}
+#key_menu h1{
+  margin-top:3px;
+  font-size:25px;  
+}
+	#key_menu form{  
+		width: 100%;
+		max-width: 50%;
+		transform: none;
+	}
+
+}
+
+@media (min-width: 902px){
+	#ul_primary_key a{
+		font-size: 16px;
+		padding: 10px; 
+	}
+}
+#key_menu .block_info{
+	font-size: 14px;
+	color:#2B2B2B;
+}
+
+
+

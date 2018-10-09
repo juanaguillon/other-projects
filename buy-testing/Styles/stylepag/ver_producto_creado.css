@@ -1,0 +1,28 @@
+.img_min_product{
+  width: 120px; 
+  min-height: 90px;
+  cursor: pointer;
+  display: block;
+}
+.img_block{
+	float: left; 
+	height: 450px;         
+}  
+.prev_image{
+	padding: 5px;
+	border-radius: 5px;
+	background: #E6E6E6;
+	box-shadow: 0 0 8px #474747;
+	float: left;
+	margin-left: 15px;
+}
+.img img{
+	height: 450px;
+	width: auto;
+}
+.img{
+	overflow: hidden;
+	max-height: 450px;
+	
+}
+

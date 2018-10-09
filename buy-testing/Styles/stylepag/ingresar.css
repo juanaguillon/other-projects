@@ -1,0 +1,24 @@
+#ing_form{	
+	display: block;
+	max-width: 420px;	
+	margin:auto; 
+	border: 1px solid #DBDBDB;
+	padding: 15px; 
+}
+#ing_form input,#ing_form table{
+	width: 100%;
+}
+#ing_form table td{
+	padding: 5px 0;
+}
+
+.linka_none,.linka_success{
+	text-decoration: none;	
+	font-size: 14px;
+	color: #1B7BFD;
+}
+.linka_none:hover,.linka_success:hover{
+	color: #004FD1;
+}
+
+

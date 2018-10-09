@@ -1,0 +1,14 @@
+RewriteEngine On
+Options All -Indexes
+RewriteBase /mvcself/
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+
+#RewriteCond %{HTTP_HOST} ^mvcself.com [NC]
+#RewriteRule (.*) http://www.mvcself.com/$1 [L,R=301]
+
+ErrorDocument 403 /mvcself/public/error/403.php
+ErrorDocument 404 /mvcself/public/error/404.php

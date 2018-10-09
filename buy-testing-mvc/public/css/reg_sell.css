@@ -1,0 +1,32 @@
+#type_sell,.div_file{
+	width: 100%; 
+	font-size: 15px;
+	box-shadow: 0 1px 1px #B8B8B8;
+  border: 1px solid #DCDCDC;
+	border-radius: 2px;	
+}
+#name_{
+	display: block;
+	width: 100%;
+}
+.section{
+	margin-bottom: 1em;
+}
+.div_file{
+	position: relative;
+	background-color:white;
+	padding: 5px; 
+	width: 50%;
+	margin: 0 auto;
+}
+
+.input_file{
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0;
+	height: 100%;
+	width: 100%;
+}

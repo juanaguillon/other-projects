@@ -1,0 +1,46 @@
+.dyn_cr_pages{  
+  text-align: center;
+  max-height: 290px;
+  min-height: 290px;
+  box-shadow: 0 0 3px #bbbbbb;  
+}
+/* Estilo de titulo de cada post */
+.dyn_title_post{
+  padding: 9px;
+  color: #424242;
+  font-size:17px;
+  margin:0;
+  font-weight: bold;
+}
+.dyn_title_post:hover{
+  color: #7e7e7e;
+}
+.dyn_all_pages{
+  max-width: 1000px;
+  width: 98%;
+  margin: 0 auto;
+}
+.dyn_parent_link{
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+  box-sizing: border-box;
+  padding: .8em;
+  
+}
+
+/* Image independiente en el front */
+
+.dyn_image_interk{
+  width: 100%;
+  height: auto;
+  
+}
+/* Excerpts */
+.dynil_the-excerpt{
+  line-height: 19px !important;
+  font-size:14px !important; 
+  color:#313131 !important; 
+  font-style: italic;
+  margin-top:3px !important;
+}

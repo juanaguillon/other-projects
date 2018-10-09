@@ -1,0 +1,125 @@
+div.dyn_box_content {
+	padding:10px;
+	width: 30%;
+	border:1px solid #E0E0E0 ;	
+	margin: 3px 7px;
+	box-shadow: 0 1px 1px 0px #DFDFDF;
+	display: inline-block;
+	box-sizing: border-box;
+}
+input.dyn_box_check{
+	float:right;
+}
+div.dyn_box_data{
+	color: #414141;
+	font-size: 1.2em;
+}
+div.dyn_box_date{
+	font-size:0.9em;
+	color:#979797;
+}
+.dynil_table_result{
+	height: 300px;
+	max-height: 300px;
+	overflow-y: auto;
+	background: #FBFBFB;
+}
+table#table_result{
+	width: 100%;	
+	border-spacing: 0;	
+	margin-top: 1em;
+}
+
+table#table_result thead{	
+	background-color: #2059A7;
+}
+table#table_result thead th{
+	padding: 5px 10px;
+	color:#F1F1F1;
+}
+
+.dynil_table_check{
+	width: 5%;
+}
+.dynil_table_id{
+	width: 7%;
+}
+.dynil_table_name{
+	width: 63%;	
+}
+.dynil_table_date{
+	width: 25%;
+}
+.dynil_content_options>div.content{
+	padding: 15px;
+	background-color: white;
+}
+td.dynil_result_list{
+	padding:14px;	
+	font-size: 1.2em;
+}
+
+/* Estilos tr alternativos*/
+.dyn_tr_first{
+	background-color: #E0EDFF;
+	
+}
+
+/*Ajax Seccion*/
+.dynil_ajax_section .content{
+	width: 45%;
+	position: relative;
+}
+.dynil_ajax_section .content *{
+	width: 100%;
+	margin: 0;
+	box-sizing: border-box;
+}
+div#respond{
+	box-shadow: 0px 2px 3px #808080;
+	position: absolute;
+	background-color:white;
+	z-index: 2;
+}
+div#respond .names_pages{
+	padding:5px 15px;
+	font-size:1.1em;	
+	cursor: pointer;
+}
+.names_pages_selected{
+	background-color:#E6E6E6;
+	font-weight: bold;
+}
+.dyn_ajax_is_put.names_pages_selected{	
+	opacity:0.6;
+}
+.dynil_load_pages input.button-save{
+	color: #41883e;
+}
+.dynil_load_pages input.button-cc{
+	color: #883e3e;
+}
+
+/* Informacion para el usuario */
+
+.dynil_info{
+  padding: 0.2em;
+  
+  width: 50%;
+  margin:7px 0;
+  
+}
+.dynil_title_info,.dynil_desc_info{
+  margin:0;
+  color:rgb(87, 87, 87);
+}
+.dynil_title_info{
+  font-size:14px;
+  color:#0c0d36;  
+  
+}
+.dynil_desc_info{
+  font-size: 13px;
+  
+}
+

@@ -1,0 +1,154 @@
+*{
+  box-sizing: border-box;
+}
+
+.dyn_page_bd > p{
+  margin: 0;
+  width: 30%;
+  padding: 10px;
+  display: inline-block;
+  background-color: #ffffff;
+  margin-bottom: 0.5em;
+  box-shadow: 0 0 3px lightgrey;
+}
+.dyn_page_bd > span {
+  padding: 10px;
+  display: inline-block;
+  background-color: #e6e6e6;
+  box-shadow: 0 0 3px #c4c4c4;
+  width: 40px;
+  color: #2b2828;
+  font-size: 14px;
+}
+
+input.dyn_input_change {
+    padding: 10px;
+    display: inline-block;
+    background-color: #e6e6e6;
+    box-shadow: 0 0 3px #c4c4c4;
+    width: 40px;
+    color: #2b2828;
+    font-size: 14px;
+}
+
+/* Estructura */
+.dyn_cr_structure{
+  margin-bottom:5px;
+  position:relative;
+}
+.dyn_box_structure > .dyn_input_change{  
+  font-family: monospace;
+  vertical-align: top;
+}
+code.dyn_val_str{
+  font-size:13px;
+  font-weight: bold;
+  color:#4b4b4b;
+  min-width: 45px;
+  padding: 12px 8px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  text-align: center;
+}
+.dyn_wh_str{
+  box-shadow: 0 1px 1px #c7c7c7;
+  background-color: white;   
+  padding:12px 8px;
+  width: 25%;
+  display: inline-block;
+  margin: 0;
+}
+.dyn_box_structure > .dyn_input_change{
+  width: 60px;
+}
+button.button-cc{
+  background-color:#991b1b;
+}
+button.button-save{
+  background-color: #1b994b;
+}
+.button-save, .button-cc{
+  border:none;
+  border-radius: 3px;
+  padding:5px 10px;
+  width: 85px;
+  margin:0 3px;
+  color:white;
+  text-align: center;
+  cursor: pointer;
+  font-size: 14px;
+  opacity: 0.9;
+  box-shadow: 1px 1px 1px #808080;
+  text-shadow: 1px 2px 2px #000000;
+}
+.button-cc:hover, .button-save:hover{
+  opacity: 1;
+  box-shadow:2px 2px 3px #4e4e4e;
+  
+}
+
+/*
+*Estilo de ajax.
+*/
+#dyn_search_top_page{
+  width: 80%;
+}
+.dynil_modal_content{
+  background-color: white;
+  padding:8px;
+  margin-bottom: 1em;
+  box-shadow: 0 1px 1px #999999;
+  width: 60%;
+}
+.dyn_topping_respond{  
+  margin:6px 0;
+  box-shadow: 0 0px 4px #a7a7a7; 
+  width: 80%;
+}
+.dyn_topping_respond .names_pages{
+  cursor:pointer;
+  font-size:15px;
+  padding: 5px;
+}
+.ajax_page_selected{
+  background-color:rgba(0 ,0,0,0.1)
+}
+
+/* Pagina seleccionada */
+
+.dyn_topping_selected{
+  padding:8px 0 6px 6px;
+  border-bottom:2px solid rgb(153, 181, 243);
+  width: 300px;
+  font-size:16px;
+  color:#464646;
+  display: inline-block;
+  margin-right: 3px;
+  vertical-align: bottom;
+  
+}
+
+/* Informacion para el usuario */
+
+.dynil_info{
+  padding: 0.2em;
+  
+  width: 50%;
+  margin:7px 0;
+  
+}
+.dynil_title_info,.dynil_desc_info{
+  margin:0;
+  color:rgb(87, 87, 87);
+}
+.dynil_title_info{
+  font-size:14px;
+  color:#0c0d36;  
+  
+}
+.dynil_desc_info{
+  font-size: 13px;
+  
+}
+

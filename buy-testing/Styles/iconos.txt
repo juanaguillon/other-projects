@@ -1,0 +1,11 @@
+fa-times-circle
+fa fa-search
+fa fa-bars
+fa fa-search
+fa fa-home
+fa fa-sign-in
+fa fa-sign-out
+fa fa-plus
+fa fa-cog
+fa fa-user-circle
+fa fa-chevron-up

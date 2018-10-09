@@ -1,0 +1,21 @@
+table{	
+	padding: 5px;	
+	
+}
+
+#create_vendor_form table{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 420px;
+}
+
+table td{
+	padding-bottom: 5px;
+}
+option{
+	padding: 3px;
+}
+.file:hover{
+  background: #0044C2;
+}
+
